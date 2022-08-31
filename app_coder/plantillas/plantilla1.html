@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumnos</title>
+</head>
+<body>
+ Datos de familiares   
+{%for estudiantes in estudiantes%}
+<p>Nombre:{{estudiantes.nombre}}<br>Apellido:{{estudiantes.apellido}} </p>
+{%endfor %}
+</body>
+</html>
