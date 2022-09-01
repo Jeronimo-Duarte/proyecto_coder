@@ -1,0 +1,9 @@
+{% extends "app_coder/plantilla_base.html"  %}
+{% block contenido_base %}
+
+<h1><b>Lista de estudiantes</b></h1>
+{%for alumno in estudiantes%}
+<p><b>Nombre:</b> {{alumno.nombre}}<br><b>Apellido:</b> {{alumno.apellido}}
+{%endfor%}  
+    
+{% endblock %}
